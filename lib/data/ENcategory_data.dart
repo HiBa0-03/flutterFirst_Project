@@ -13,4 +13,8 @@ List<Category> categories = [
     categoryTitle: 'common \n expression',
     categoryIcon:  IconlyLight.chat ,
   ),
+   const Category(
+    categoryTitle:'quiz',
+    categoryIcon:  IconlyLight.game ,
+  ),
 ];

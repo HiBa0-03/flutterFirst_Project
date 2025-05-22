@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hib_testflu/pages/home/homePage_frensh.dart';
+import 'package:hib_testflu/pages/home/homePage_frenshA1.dart';
 import 'package:hib_testflu/pages/Profile/profilePage.dart';
 import 'package:hib_testflu/pages/quiz/processPage.dart';
 class frbarPage extends StatefulWidget {
-  const frbarPage({super.key});
+  final String selectedLevel;
+  const frbarPage ({Key? key, required this.selectedLevel}) :super(key: key);
 
   @override
   State<frbarPage> createState() => _frbarPageState();
@@ -12,11 +13,15 @@ class frbarPage extends StatefulWidget {
 class _frbarPageState extends State<frbarPage> {
   
  int selectedIndex = 0;
-  static List<Widget> tabBarPages = [
-    const homePage_frensh(),
-    const ProcessPage(), 
-     const Profilepage(),   
-  ];
+ late List<Widget> tabBarPages ;
+  void initState() {
+    super.initState();
+    tabBarPages = [
+      homePage_frensh(language: 'french', level: widget.selectedLevel),
+      const ProcessPage(), 
+      const Profilepage(),
+    ];
+  }
   void onTap(int index) {
     setState(() {
       selectedIndex = index;
@@ -33,8 +38,8 @@ body: tabBarPages[selectedIndex],
   BottomNavigationBar bottomNavigationBar(BuildContext) {
     return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
-      backgroundColor: const Color.fromARGB(255, 244, 65, 163),
-      selectedItemColor: const Color.fromARGB(255, 236, 8, 137),
+      backgroundColor: Color.fromARGB(255, 252, 172, 207),
+      selectedItemColor: Color.fromARGB(255, 236, 103, 161),
       unselectedItemColor: const Color.fromARGB(255, 255, 255, 255),
       currentIndex: selectedIndex,
       onTap: onTap,

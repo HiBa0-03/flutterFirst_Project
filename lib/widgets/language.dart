@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 class Language extends StatefulWidget {
   const Language({super.key});
 
@@ -7,6 +8,10 @@ class Language extends StatefulWidget {
 }
 
 class _LanguageState extends State<Language> {
+    Future<void> _saveLanguage(String language) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString('language', language);
+  }
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
@@ -15,9 +20,10 @@ body: Center(
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: [
       ElevatedButton(
-        onPressed: () {
+        onPressed: ()async {
          // Navigator.pushNamed(context, '/enbar');
-          Navigator.pushNamed(context, '/Levelen');
+         await _saveLanguage('english');
+          Navigator.pushNamed(context, '/Levelen',arguments: "english");
         },
          style: ElevatedButton.styleFrom(
                 padding: EdgeInsets.all(10),
@@ -34,9 +40,10 @@ body: Center(
         )
       ),
       ElevatedButton(
-        onPressed: () {
+        onPressed: () async{
+           await _saveLanguage('french');
          // Navigator.pushNamed(context, '/frbar');
-          Navigator.pushNamed(context, '/Levelfr');
+          Navigator.pushNamed(context, '/Levelfr',arguments: "french");
         },
         style: ElevatedButton.styleFrom(
                 padding: EdgeInsets.all(10),

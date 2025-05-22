@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:hib_testflu/data/FRLevel_data%20.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../model/Level.dart';
-import '../data/FRLevel_data .dart';
 class LevelPage2 extends StatefulWidget {
-  const LevelPage2({Key? key}) : super(key: key);
+  final String language;
+  const LevelPage2({Key? key, required this.language}) : super(key: key);
 
   @override
   State<LevelPage2> createState() => _LevelPage2State();
@@ -11,7 +13,26 @@ class LevelPage2 extends StatefulWidget {
 class _LevelPage2State extends State<LevelPage2> {
   int? selectedIndex;
   
-
+ String _getStandardLevel(String levelTitle) {
+  if (widget.language == 'french') {
+    switch (levelTitle) {
+      case 'Je suis encore débutant':
+        return 'A1';
+      case 'Je connais quelques mots de base':
+        return 'A2';
+      case 'Je peux parler un peu':
+        return 'B1';
+      default:
+        return 'Unknown';
+    }
+  }
+  return 'Unknown';
+  }
+  Future<void> _saveLevel(String  LevelTitle) async {
+    final prefs = await SharedPreferences.getInstance();
+    final standardLevel = _getStandardLevel( LevelTitle);
+    await prefs.setString('level', standardLevel);
+  }
 
   @override 
   Widget build(BuildContext context) {
@@ -34,7 +55,7 @@ class _LevelPage2State extends State<LevelPage2> {
                   child: Text(
                     'Vous connaissez déjà un peu Français ?',
                     style: TextStyle(
-                      color:const Color.fromARGB(255, 210, 25, 96),
+                      color: Color.fromARGB(255, 210, 25, 96),
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
                     ),
@@ -48,17 +69,28 @@ class _LevelPage2State extends State<LevelPage2> {
               bool selectIndex = selectedIndex == index;
 
               return GestureDetector(
-                onTap: () {
+                onTap: () async {
                   setState(() {
                     selectedIndex = index;
                   });
                   
+                  await _saveLevel(level.LevelTitle);
+                  
+                  Navigator.pushReplacementNamed(
+                    context, 
+                    '/frbar',
+                    arguments: {
+                      'selectedLevel': _getStandardLevel(level.LevelTitle),
+                    },
+                  );
                 },
                 child: Container(
                   margin: const EdgeInsets.only(bottom: 20),
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
-                    color: selectIndex ? const Color.fromARGB(255, 254, 180, 209) : const Color.fromARGB(255, 210, 25, 96) ,
+                    color: selectIndex 
+                        ? const Color.fromARGB(255, 254, 180, 209) 
+                        : const Color.fromARGB(255, 210, 25, 96),
                     borderRadius: BorderRadius.circular(12),
                     border: selectIndex
                         ? Border.all(color: const Color.fromARGB(255, 254, 180, 209), width: 2)

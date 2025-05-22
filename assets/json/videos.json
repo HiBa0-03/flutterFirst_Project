@@ -1,0 +1,250 @@
+{
+  "english": {
+    "A1": {
+      "vocabulary": [
+        { "title": " Colors", "url": "https://www.youtube.com/watch?v=ybt2jhCQ3lA&list=PLii5rkhsE0LdtTknIAU8v6L1AO5A2l8pE&index=1" },
+        { "title": "Numbers from 1 to 100", "url": "https://www.youtube.com/watch?v=sA-WlzDMG44&t=1s" },
+        { "title": "Days of the week and Months of the year", "url": "https://www.youtube.com/watch?v=WVGsZQIzixM" },
+        { "title": "Family Members", "url": "https://www.youtube.com/watch?v=FHaObkHEkHQ&list=PLii5rkhsE0LdtTknIAU8v6L1AO5A2l8pE&index=8" },
+        { "title": "The Weather", "url": "https://www.youtube.com/watch?v=CXKj7bm4Ops&list=PLii5rkhsE0LdtTknIAU8v6L1AO5A2l8pE&index=16" },
+        { "title": " Parts of the Body ", "url": "https://www.youtube.com/watch?v=SUt8q0EKbms" },
+        { "title": "Fruits&vegetables", "url": "https://www.youtube.com/watch?v=S2hX3N7mHYk&list=PLii5rkhsE0LdtTknIAU8v6L1AO5A2l8pE&index=2" },
+        { "title": "Clothes-clothing", "url": "https://www.youtube.com/watch?v=Q_EwuVHDb5U&list=PLii5rkhsE0LdtTknIAU8v6L1AO5A2l8pE&index=9" },
+        { "title": "Animals", "url": "https://www.youtube.com/watch?v=9DudksqYoWw&list=PLii5rkhsE0LdtTknIAU8v6L1AO5A2l8pE&index=6" }
+      
+      ],
+      "grammar": [
+        { "title": "Singular&Plural", "url": "https://www.youtube.com/watch?v=L4B7XxuJO6A&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=7" },
+        { "title": "Object Pronouns", "url": "https://www.youtube.com/watch?v=aqJMbCvduhY" },
+        { "title": "Subject Pronouns", "url": "https://www.youtube.com/watch?v=Dr8GIp94GgA&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=4" },
+        { "title": "Articles", "url": "https://www.youtube.com/watch?v=RDkx4J__-QY&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=8" },
+        { "title": "Prepositions of Time", "url": "https://www.youtube.com/watch?v=fRrVkXG0-v4&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=11" },
+        { "title": "Prepositions of Place", "url": "https://www.youtube.com/watch?v=kq65VGkVwC8&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=12" },
+        { "title": "Wh- Questions", "url": "https://www.youtube.com/watch?v=x_4AjSwTXdc&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=14" },
+        { "title": "Adjectives", "url": "https://www.youtube.com/watch?v=LiYxv0vudmc&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=10" },
+        { "title": "Adverbes of manner", "url": "https://www.youtube.com/watch?v=N9_8l4MgJzU&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=16" },
+        { "title": "Simple Present", "url": "https://www.youtube.com/watch?v=nvVdIJ0las0&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=1" },
+        { "title": "Tag Questions", "url": "https://www.youtube.com/watch?v=YTbGMGcyLPo&list=PL0MvnNQjMzmbT19jEPA18aypjjde_zyo4&index=29" }
+
+
+
+      ],
+      "common \n expression": [
+        { "title": "Greetings", "url": "https://www.youtube.com/watch?v=d9azAimIcWY" },
+        { "title": "5 Different Ways to Answer 'How are you?'", "url": "https://www.youtube.com/watch?v=aIaqj9hOVLM&list=PLMdOhnSbz1fEY7NRxADcA41RV0fVicpXn&index=25" },       
+        { "title": "What do you do every day?", "url": "https://www.youtube.com/watch?v=bq6GBbh3uhU" },
+        { "title": "5 Common Ways to Say Your Age ", "url": "https://www.youtube.com/watch?v=Ku4rAd3Ej9s&list=PLMdOhnSbz1fEY7NRxADcA41RV0fVicpXn&index=38" },
+        { "title": "Expressing LIKE 👍 and LOVE❤️", "url": "https://www.youtube.com/watch?v=xIoi6GxgmoY&list=PLMdOhnSbz1fEY7NRxADcA41RV0fVicpXn&index=36" },
+        { "title": "Top 'Taste👅' Expressions for Daily Conversations", "url": "https://www.youtube.com/watch?v=mTc8j-GYMn0&list=PLMdOhnSbz1fFn4R8OXHSsXjHb69zSmYFR" },
+        { "title": "Starting a Conversation in English (in 2 steps)", "url": "https://www.youtube.com/watch?v=FQ1SjgVI5fI&list=PLMdOhnSbz1fEY7NRxADcA41RV0fVicpXn&index=35" },
+        { "title": "Different Ways to Say 'Thank You'", "url": "https://www.youtube.com/watch?v=v5Z44MT-pgA&list=PLMdOhnSbz1fEY7NRxADcA41RV0fVicpXn&index=32" }
+      ]
+    },
+    "A2": {
+      "vocabulary": [
+         { "title": "Food&Drinks", "url": "https://www.youtube.com/watch?v=rXIouQGlEn8&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=3" },
+         { "title": " in the kitchen", "url": "https://www.youtube.com/watch?v=I3jqAR2_C8Q&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=5" }, 
+         { "title": "in Bedroom", "url": "https://www.youtube.com/watch?v=xio-ImRD9Cg" },
+         { "title": "in the Bathroom", "url": "https://www.youtube.com/watch?v=DKXyAA8_178&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=14" },
+         { "title": "Jobs&Accupations", "url": "https://www.youtube.com/watch?v=hN9wvfe9rWo&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=4" },
+         { "title": "Health problems", "url": "https://www.youtube.com/watch?v=glUrV3A-Ayg&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=10" },
+         { "title": "Action Verbs", "url": "https://www.youtube.com/watch?v=Ay0msbMUxWI&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=7" },    
+         { "title": "Hobbies", "url": "https://www.youtube.com/watch?v=3fTCi8AM9JA&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=16" },
+         { "title": "Opposite Words", "url": "https://www.youtube.com/watch?v=Vsi-y9gl0PI&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=17" },
+         { "title": "Sports", "url": "https://www.youtube.com/watch?v=X8ouh0lxJu8&list=PLR2uSuHOMbUEeW21uewDJM_hAlk-eHogA&index=21" }
+
+      ],
+      "grammar": [
+        { "title": "Present Simple", "url": "https://www.youtube.com/watch?v=GRKxWxhVFvA&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic" },
+        { "title": "Past Simple", "url": "https://www.youtube.com/watch?v=UN5XLA2tN5E&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=2" },
+        { "title": "Using some,any,a lot of", "url": "https://www.youtube.com/watch?v=MbG7UD6st0A&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=3" },
+        { "title": "Much&Many", "url": "https://www.youtube.com/watch?v=Su5NSGJPviM&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=7" },
+         { "title": "Countables&uncountables", "url": "https://www.youtube.com/watch?v=qPRXYcReago&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=6" },
+        { "title": "Present Continuous", "url": "https://www.youtube.com/watch?v=cROEPfkQq-U&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=10" },
+         { "title": "Who's&whos", "url": "https://www.youtube.com/watch?v=J-r3e1MvzGI&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=20" },
+        { "title": "Preposition of movement", "url": "https://www.youtube.com/watch?v=4kmc0djlFaY&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=16" },
+         { "title": "Futur simple", "url": "https://www.youtube.com/watch?v=TawtADHYRU0&list=PLLaZ3IAYACfp3WoPt6tl5u2_rrlxfgWic&index=12" }
+
+      ],
+      "common \n expression": [
+        { "title": "At a Hotel", "url": "https://www.youtube.com/watch?v=A5MXfq9rtm4&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl" },
+        { "title": "At the train Station", "url":"https://www.youtube.com/watch?v=5LdxFiqsl84&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=2"},
+        { "title": "Planning a vacation", "url":"https://www.youtube.com/watch?v=l9nOsiwxdMo&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=3"},
+        { "title": "At the airport", "url":"https://www.youtube.com/watch?v=t5LuqJJVhaE&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=5"},
+        { "title": "taking a taxi", "url":"https://www.youtube.com/watch?v=pBCF257vq-I&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=6"},
+        { "title": "Asking for directions", "url":"https://www.youtube.com/watch?v=aaoPI4W2LuU&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=7"},
+        { "title": "Moving To a Diffrent City", "url":"https://www.youtube.com/watch?v=3o5v5v86INA&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=18"},
+        { "title": "Going on a Hiking Trip", "url":"https://www.youtube.com/watch?v=ys-99HVWzao&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=4"},
+         { "title": "Talking about your vacation", "url":"https://www.youtube.com/watch?v=2h2oE1tu8VE&list=PLwh2W4PrDw1lLtib_gtauPme0qhnCswyl&index=8"}
+      ],
+      "B1": {
+      "vocabulaire": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "grammair": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "expression\n commune": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ]
+
+  }
+    }
+  },
+  "french": {
+    "A1": {
+      "vocabulaire": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "grammaire": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "expression\n courante": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ]
+    },
+ "A2": {
+      "vocabulaire": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "grammaire": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "expression\n courante": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ]
+    },
+       "B1": {
+      "vocabulaire": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "grammaire": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ],
+       "expression\n courante": [
+         { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+        { "title": "", "url":""},
+
+        { "title": "Les Animaux", "url": "https://www.youtube.com/watch?v=feQhHStBVLE" }
+      ]
+
+  }
+}
+}

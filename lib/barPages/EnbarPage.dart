@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import '../pages/Profile/profilePage.dart';
 import '../pages/quiz/processPage.dart';
-import '../pages/home/homePage_english.dart';
+import '../pages/home/homePage_englishA1.dart';
  class enBarPage extends StatefulWidget {
-  const enBarPage ({Key? key}) :super(key: key);
+   final String selectedLevel;
+  const enBarPage ({Key? key, required this.selectedLevel}) :super(key: key);
   
 
   @override
@@ -13,11 +14,15 @@ import '../pages/home/homePage_english.dart';
 class _enBarPage extends State<enBarPage> {
  
  int selectedIndex = 0;
-  static List<Widget> tabBarPages = [
-    const HomePage_english(),
-    const ProcessPage(), 
-     const Profilepage(),   
-  ];
+  late List<Widget> tabBarPages ;
+  void initState() {
+    super.initState();
+    tabBarPages = [
+      HomePage_english(language: 'english', level: widget.selectedLevel),
+      const ProcessPage(), 
+      const Profilepage(),
+    ];
+  }
   void onTap(int index) {
     setState(() {
       selectedIndex = index;
@@ -34,8 +39,9 @@ class _enBarPage extends State<enBarPage> {
   BottomNavigationBar bottomNavigationBar(BuildContext) {
     return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
-      backgroundColor: const Color.fromARGB(255, 244, 65, 163),
-      selectedItemColor: const Color.fromARGB(255, 236, 8, 137),
+      backgroundColor:    Color.fromARGB(255, 252, 172, 207),
+      selectedItemColor:  Color.fromARGB(255, 236, 103, 161),
+
       unselectedItemColor: const Color.fromARGB(255, 255, 255, 255),
       currentIndex: selectedIndex,
       onTap: onTap,

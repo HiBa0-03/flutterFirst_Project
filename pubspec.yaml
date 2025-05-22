@@ -31,7 +31,8 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.2.2  
-
+  youtube_player_flutter:  ^9.1.1
+ 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -63,6 +64,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  
 
   # To add assets to your application, add an assets section, like this:
   assets:
@@ -73,6 +75,7 @@ flutter:
      - assets/images/Level2.png
      - assets/images/Level3.png
      - assets/images/bird.png
+     - assets/json/videos.json
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
